@@ -1,0 +1,38 @@
+Finding intermodel H-bonds
+Finding intramodel H-bonds
+Constraints relaxed by 0.4 angstroms and 20 degrees
+Models used:
+	1 SOX2_SOX2_mRNA_1.cif
+
+30 H-bonds
+H-bonds (donor, acceptor, hydrogen, D..A dist, D-H..A dist):
+/A ASN 3 ND2    /B C 2331 OP2   no hydrogen  2.603  N/A
+/A THR 17 OG1   /B U 2457 O3'   no hydrogen  2.950  N/A
+/A THR 17 OG1   /B U 2457 O5'   no hydrogen  3.143  N/A
+/A ARG 40 NH2   /B A 2498 O3'   no hydrogen  3.424  N/A
+/A LYS 42 NZ    /B A 2438 OP2   no hydrogen  3.404  N/A
+/A ARG 43 N     /B G 2436 O3'   no hydrogen  3.219  N/A
+/A ASN 46 ND2   /B C 2505 O2    no hydrogen  3.297  N/A
+/A ASN 46 ND2   /B A 2506 N3    no hydrogen  3.091  N/A
+/A ASN 68 ND2   /B A 2440 O2'   no hydrogen  2.291  N/A
+/A SER 69 OG    /B G 2502 O2'   no hydrogen  1.896  N/A
+/A SER 69 OG    /B G 2503 O4'   no hydrogen  2.824  N/A
+/A SER 72 OG    /B G 2503 N3    no hydrogen  2.471  N/A
+/A LYS 80 NZ    /B C 2505 OP1   no hydrogen  2.789  N/A
+/A TYR 110 OH   /B G 2436 O4'   no hydrogen  3.419  N/A
+/A ARG 114 NH1  /B A 2510 O2'   no hydrogen  2.139  N/A
+/A LYS 121 NZ   /B A 779 O2'    no hydrogen  3.344  N/A
+/A LYS 124 NZ   /B A 779 OP1    no hydrogen  1.510  N/A
+/A ASN 137 ND2  /B C 2328 O2    no hydrogen  2.930  N/A
+/A SER 159 OG   /B A 2512 N7    no hydrogen  2.788  N/A
+/A GLN 182 NE2  /B U 2424 O2'   no hydrogen  2.677  N/A
+/B A 1621 O2'   /A GLU 70 OE1   no hydrogen  3.338  N/A
+/B A 1621 O2'   /A GLU 70 OE2   no hydrogen  2.704  N/A
+/B C 2327 N4    /A ASN 137 OD1  no hydrogen  3.626  N/A
+/B A 2434 O2'   /A ARG 113 O    no hydrogen  2.804  N/A
+/B G 2435 O2'   /A TYR 110 OH   no hydrogen  3.219  N/A
+/B G 2435 O2'   /A ARG 111 O    no hydrogen  3.413  N/A
+/B A 2496 O2'   /A ASP 39 OD1   no hydrogen  2.585  N/A
+/B G 2502 O2'   /A SER 69 OG    no hydrogen  1.896  N/A
+/B G 2503 N2    /A SER 72 OG    no hydrogen  2.867  N/A
+/B G 2503 O2'   /A SER 69 O     no hydrogen  2.549  N/A

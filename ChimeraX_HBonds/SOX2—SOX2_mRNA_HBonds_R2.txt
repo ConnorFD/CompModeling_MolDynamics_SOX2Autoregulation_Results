@@ -1,0 +1,40 @@
+Finding intermodel H-bonds
+Finding intramodel H-bonds
+Constraints relaxed by 0.4 angstroms and 20 degrees
+Models used:
+	1 SOX2_SOX2_mRNA_2.cif
+
+32 H-bonds
+H-bonds (donor, acceptor, hydrogen, D..A dist, D-H..A dist):
+/A LYS 10 NZ    /B C 2391 OP2   no hydrogen  3.401  N/A
+/A GLY 32 N     /B U 2424 O3'   no hydrogen  2.699  N/A
+/A LYS 42 NZ    /B C 2415 O5'   no hydrogen  3.044  N/A
+/A PHE 48 N     /B C 767 O2'    no hydrogen  3.195  N/A
+/A SER 52 OG    /B C 766 O2'    no hydrogen  3.332  N/A
+/A ARG 53 NH1   /B A 2417 O3'   no hydrogen  3.333  N/A
+/A ARG 56 NH2   /B C 766 O4'    no hydrogen  3.297  N/A
+/A ARG 57 NE    /B A 2418 O2'   no hydrogen  1.866  N/A
+/A ARG 57 NH2   /B A 2418 O3'   no hydrogen  3.116  N/A
+/A SER 72 OG    /B A 765 O2'    no hydrogen  2.528  N/A
+/A LYS 80 NZ    /B C 752 O3'    no hydrogen  2.799  N/A
+/A LYS 80 NZ    /B C 752 O5'    no hydrogen  2.706  N/A
+/A TYR 110 OH   /B A 763 OP1    no hydrogen  2.750  N/A
+/A ARG 113 NH1  /B U 2351 O4    no hydrogen  3.137  N/A
+/A LYS 115 NZ   /B U 757 O2     no hydrogen  2.665  N/A
+/A LYS 115 NZ   /B U 758 O4'    no hydrogen  2.811  N/A
+/A LYS 117 NZ   /B U 2334 OP1   no hydrogen  1.657  N/A
+/A TYR 125 OH   /B U 2336 O5'   no hydrogen  2.615  N/A
+/A TYR 125 OH   /B U 2337 OP2   no hydrogen  2.423  N/A
+/A GLN 175 NE2  /B C 776 O2'    no hydrogen  3.418  N/A
+/A TYR 180 N    /B C 770 O2'    no hydrogen  2.933  N/A
+/B A 765 O2'    /A SER 72 OG    no hydrogen  2.528  N/A
+/B G 774 N2     /A GLN 175 O    no hydrogen  2.825  N/A
+/B G 774 N2     /A GLU 285 OE1  no hydrogen  2.643  N/A
+/B G 774 O2'    /A ALA 281 O    no hydrogen  2.648  N/A
+/B U 2334 O2'   /A THR 17 O     no hydrogen  3.555  N/A
+/B G 2345 N2    /A ASP 176 OD2  no hydrogen  2.713  N/A
+/B G 2345 O2'   /A GLN 175 OE1  no hydrogen  1.260  N/A
+/B G 2348 O2'   /A ARG 43 O     no hydrogen  2.575  N/A
+/B A 2350 N6    /A ARG 113 O    no hydrogen  3.000  N/A
+/B A 2355 O2'   /A ARG 156 O    no hydrogen  3.275  N/A
+/B A 2423 O2'   /A ALA 30 O     no hydrogen  2.430  N/A

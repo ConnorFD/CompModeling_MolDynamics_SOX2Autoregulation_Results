@@ -1,0 +1,14 @@
+Finding intermodel H-bonds
+Finding intramodel H-bonds
+Constraints relaxed by 0.4 angstroms and 20 degrees
+Models used:
+	1 SOX2 Interaction with ES2 -- Test 5.pdb
+
+6 H-bonds
+H-bonds (donor, acceptor, hydrogen, D..A dist, D-H..A dist):
+/A ARG 1 NH1   /B A 97 O2'   no hydrogen  2.189  N/A
+/A ASN 7 ND2   /B U 113 O3'  no hydrogen  2.256  N/A
+/A ARG 17 NH1  /B U 100 O2'  no hydrogen  2.476  N/A
+/A ARG 17 NH2  /B U 111 O2   no hydrogen  3.072  N/A
+/A ASN 29 ND2  /B G 101 O3'  no hydrogen  3.318  N/A
+/A SER 33 OG   /B U 111 O2   no hydrogen  3.334  N/A

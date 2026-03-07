@@ -1,0 +1,46 @@
+Finding intermodel H-bonds
+Finding intramodel H-bonds
+Constraints relaxed by 0.4 angstroms and 20 degrees
+Models used:
+	1 HuR_SOX2_3.cif
+
+38 H-bonds
+H-bonds (donor, acceptor, hydrogen, D..A dist, D-H..A dist):
+/A VAL 56 N     /B A 2459 N3    no hydrogen  2.295  N/A
+/A SER 99 OG    /B U 2457 O2    no hydrogen  2.292  N/A
+/A LYS 104 NZ   /B U 2458 OP1   no hydrogen  1.245  N/A
+/A ASN 188 ND2  /B U 2455 O2    no hydrogen  3.678  N/A
+/A GLN 198 NE2  /B A 2500 N1    no hydrogen  3.222  N/A
+/A SER 202 OG   /B U 2501 O2'   no hydrogen  1.504  N/A
+/A ALA 204 N    /B G 2503 OP2   no hydrogen  3.049  N/A
+/A ARG 205 NH1  /B A 2500 OP2   no hydrogen  3.078  N/A
+/A ARG 205 NH2  /B A 2440 N1    no hydrogen  2.594  N/A
+/A ARG 206 N    /B G 2502 OP2   no hydrogen  3.315  N/A
+/A HIS 212 NE2  /B A 2396 O2'   no hydrogen  2.044  N/A
+/A ARG 217 NH2  /B A 2254 OP2   no hydrogen  1.437  N/A
+/A ARG 219 NH1  /B A 2504 O4'   no hydrogen  2.994  N/A
+/A SER 241 OG   /B A 2496 O5'   no hydrogen  3.212  N/A
+/A SER 242 N    /B A 2496 OP2   no hydrogen  1.506  N/A
+/A SER 242 OG   /B A 2496 OP1   no hydrogen  1.421  N/A
+/A GLY 243 N    /B A 2496 O5'   no hydrogen  1.902  N/A
+/A CYS 245 N    /B G 2495 N3    no hydrogen  3.308  N/A
+/A CYS 245 SG   /B G 2495 OP1   no hydrogen  3.606  N/A
+/A LYS 313 NZ   /B U 2490 O4'   no hydrogen  3.177  N/A
+/A GLN 316 NE2  /B U 2491 O4    no hydrogen  3.421  N/A
+/A LYS 320 NZ   /B U 2494 O3'   no hydrogen  2.541  N/A
+/A LYS 320 NZ   /B U 2494 O5'   no hydrogen  2.092  N/A
+/A THR 321 OG1  /B U 2493 O4    no hydrogen  2.066  N/A
+/A ASN 322 N    /B U 2293 O2'   no hydrogen  3.421  N/A
+/A LYS 323 NZ   /B G 2495 O3'   no hydrogen  3.347  N/A
+/B A 2396 O2'   /A HIS 212 NE2  no hydrogen  2.044  N/A
+/B A 2396 O2'   /A GLN 216 OE1  no hydrogen  2.581  N/A
+/B G 2453 N2    /A LEU 108 O    no hydrogen  3.133  N/A
+/B U 2455 O2'   /A LEU 61 O     no hydrogen  3.455  N/A
+/B U 2458 N3    /A TYR 5 OH     no hydrogen  2.809  N/A
+/B U 2458 O2'   /A TYR 63 OH    no hydrogen  3.365  N/A
+/B C 2460 O2'   /A GLU 6 OE1    no hydrogen  3.414  N/A
+/B C 2460 O2'   /A GLU 6 OE2    no hydrogen  2.802  N/A
+/B G 2478 O2'   /A LYS 55 O     no hydrogen  2.777  N/A
+/B U 2501 O2'   /A GLN 198 O    no hydrogen  2.931  N/A
+/B U 2501 O2'   /A SER 202 OG   no hydrogen  1.504  N/A
+/B G 2502 O2'   /A SER 197 O    no hydrogen  2.173  N/A
