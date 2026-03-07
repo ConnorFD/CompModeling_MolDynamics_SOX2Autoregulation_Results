@@ -1,12 +1,12 @@
-grep -v HOH 'SOX2 Interaction with ES2 -- Test 1.pdb'
-gmx pdb2gmx -f 'SOX2 Interaction with ES2 -- Test 1.pdb' -o SOX2_E1_processed.gro -water tip3p -ignh
+grep -v HOH 'SOX2 Interaction with S100A14 -- Test 1.pdb'
+gmx pdb2gmx -f 'SOX2 Interaction with S100A14 -- Test 1.pdb' -o SOX2_S1_processed.gro -water tip3p -ignh
 ##select force field OL15 nucleic (Zgarbova et al., J. Chem. Theory Comput. 11, 5723-36, 2015
-gmx editconf -f SOX2_E1_processed.gro -o SOX2_E1_newbox.gro -c -d 1.2 -bt dodecahedron
-gmx solvate -cp SOX2_E1_newbox.gro -cs spc216.gro -o solv.gro -p topol.top
-gmx grompp -f ions.mdp -c SOX2_E1_solv.gro -p topol.top -o ions.tpr
-gmx genion -s ions.tpr -o SOX2_E1_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
+gmx editconf -f SOX2_S1_processed.gro -o SOX2_S1_newbox.gro -c -d 1.2 -bt dodecahedron
+gmx solvate -cp SOX2_S1_newbox.gro -cs spc216.gro -o solv.gro -p topol.top
+gmx grompp -f ions.mdp -c SOX2_S1_solv.gro -p topol.top -o ions.tpr
+gmx genion -s ions.tpr -o SOX2_S1_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
 ##choose group 13 "SOL" for embedding ions
-gmx grompp -f minim.mdp -c SOX2_E1_solv_ions.gro -p topol.top -o em.tpr
+gmx grompp -f minim.mdp -c SOX2_S1_solv_ions.gro -p topol.top -o em.tpr
 gmx mdrun -v -deffnm em
 gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
 gmx mdrun -v -deffnm nvt
