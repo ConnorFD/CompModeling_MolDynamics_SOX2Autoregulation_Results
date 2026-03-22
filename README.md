@@ -1,5 +1,5 @@
 # CompModeling_MolDynamics_SOX2Autoregulation_Results
-mmCIF files of AlphaFold3 models, ChimeraX-predicted hydrogen bond tables, GROMACS RMSD/RMSF trajectories, GROMACS MD input files, and PDBs of selected GROMACS trajectory frames analyzed in "Computational Modeling and Molecular Dynamics Reveal SOX2 Autoregulation Through Competitive mRNA Binding with HuR". Further data, including but not limited to full JSON files/confidence metric summaries of AlphaFold3 predictions and MD trajectory files, are available from the authors on request.
+mmCIF files of AlphaFold3 models, ChimeraX-predicted hydrogen bond tables, GROMACS RMSD/RMSF trajectories, GROMACS MD input files, and PDBs of selected GROMACS trajectory frames analyzed in "Computational Modeling and Molecular Dynamics Reveal SOX2 Autoregulation Through Competitive mRNA Binding with HuR". Further data, including but not limited to full JSON files/confidence metric summaries of AlphaFold3 predictions and MD trajectory files, are available from the authors upon request.
 
 The AlphaFold3_Models folder contains twenty mmCIF files of AlphaFold3 models, as five AlphaFold3 models were created for each of the four protein–RNA interactions analyzed in this manuscript: the SOX2–ES2 interaction, the SOX2–S100A14 interaction, the SOX2–SOX2 mRNA interaction, and the HuR–SOX2 mRNA interaction.
 
