@@ -5,7 +5,7 @@ The AlphaFold3_Models folder contains twenty mmCIF files of AlphaFold3 models, a
 
 Inside the ChimeraX_HBonds folder, there are twenty tables of hydrogen bonds, which were predicted by ChimeraX on all AlphaFold3 models. Importantly, in the first SOX2–SOX2 mRNA interaction and the fourth HuR–SOX2 mRNA interaction, hydrogen bonds were predicted after the structure was modified to ease steric clashes.
 
-The GROMACS_MD_Input_Files folder encompasses twelve sub-folders, each containing the input files for a specific GROMACS MD simulation and the command-line prompts executed. The twelve sub-folders come from the five MD simulations performed for both the SOX2–ES2 and SOX2–S100A14 interactions, as well as the one MD simulation performed for both the SOX2–SOX2 mRNA and HuR–SOX2 mRNA interactions.
+The GROMACS_MD_Input_Files folder encompasses twelve sub-folders, each containing the input files for a specific GROMACS MD simulation and the command-line prompts executed, and one sub-folder with the AMBER 14SB OL15 force field package used in the MD simulations (dihedral angle issues have already been fixed). The twelve MD simulation sub-folders come from the five MD simulations performed for both the SOX2–ES2 and SOX2–S100A14 interactions, as well as the one MD simulation performed for both the SOX2–SOX2 mRNA and HuR–SOX2 mRNA interactions.
 
 Within the GROMACS_RMSD_Trajectories folder, there are twelve files that correspond to each of the twelve sub-folders in the GROMACS_MD_Input_Files folder, as the RMSD tables were derived from the GROMACS MD simulations performed on each interaction.
 
