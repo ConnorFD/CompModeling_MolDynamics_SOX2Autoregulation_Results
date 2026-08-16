@@ -11,4 +11,4 @@ Within the GROMACS_RMSD_Trajectories folder, there are twelve files that corresp
 
 The GROMACS_RMSF_Trajectories folder also corresponds almost exactly to each of the twelve sub-folders in the GROMACS_MD_Input_Files folder. Its only difference from the GROMACS_RMSD_Trajectories folder is that it contains twenty four files, since RMSF tables were calculated both for protein residues and for RNA residues.
 
-There are only two files in the Selected_Frame_PDBs folder; these are both PDB files that are simply individual frames selected from MD simulations to be specifically analyzed in the paper. One file is the frame at 10 ns from the SOX2–SOX2 mRNA MD simulation, and one file is the frame at 0.97 ns from the first SOX2–S100A14 MD simulation.
+There is only one file in the Selected_Frame_PDBs folder: a PDB file of the frame at 0.97 ns from the first SOX2–S100A14 MD simulation.
