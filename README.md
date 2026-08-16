@@ -1,9 +1,13 @@
-# CompModeling_MolDynamics_SOX2Autoregulation_Results
-mmCIF files of AlphaFold3 models, ChimeraX-predicted hydrogen bond tables, GROMACS RMSD/RMSF trajectories, GROMACS MD input files, force field packages, and PDBs of selected GROMACS trajectory frames analyzed in "Computational Modeling and Molecular Dynamics Reveal SOX2 Autoregulation Through Competitive mRNA Binding with HuR". Further data, including but not limited to full JSON files/confidence metric summaries of AlphaFold3 predictions and MD trajectory files, are available from the authors upon request.
+# ML-Modeling_MolDynamics_SOX2Autoregulation_Results
+mmCIF files of AlphaFold3 models, ChimeraX-predicted hydrogen bond tables, GROMACS RMSD/RMSF trajectories, GROMACS free energy trajectories, GROMACS hydrogen bond analysis, GROMACS MD input files, force field packages, and PDBs of selected GROMACS trajectory frames analyzed in "Machine-learning based modeling and molecular dynamics reveal SOX2 autoregulation through competitive mRNA binding with HuR". Further data, including but not limited to full JSON files/confidence metric summaries of AlphaFold3 predictions and MD trajectory files, are available from the authors upon request.
 
 The AlphaFold3_Models folder contains twenty mmCIF files of AlphaFold3 models, as five AlphaFold3 models were created for each of the four protein–RNA interactions analyzed in this manuscript: the SOX2–ES2 interaction, the SOX2–S100A14 interaction, the SOX2–SOX2 mRNA interaction, and the HuR–SOX2 mRNA interaction.
 
 Inside the ChimeraX_HBonds folder, there are twenty tables of hydrogen bonds, which were predicted by ChimeraX on all AlphaFold3 models. Importantly, in the first SOX2–SOX2 mRNA interaction and the fourth HuR–SOX2 mRNA interaction, hydrogen bonds were predicted after the structure was modified to ease steric clashes.
+
+The GROMACS_Free_Energy_Trajectory folder contains the input file for the gmx_MMPBSA program used to estimate free energies, as well as the tables of calculated free energy values for both the SOX2–SOX2 mRNA complex and the HuR–SOX2 mRNA complex.
+
+In the GROMACS_HBond_Analysis folder, there is one Python file designed to calculate the occupancy percentages of the longest lasting hydrogen bonds within an MD simulation of a protein–RNA complex, as well as the results of this program when run on the SOX2–SOX2 mRNA complex and the HuR–SOX2 mRNA complex.
 
 The GROMACS_MD_Input_Files folder encompasses twelve sub-folders, each containing the input files for a specific GROMACS MD simulation and the command-line prompts executed, and one sub-folder with the AMBER 14SB OL15 force field package used in the MD simulations (dihedral angle issues have already been fixed). The twelve MD simulation sub-folders come from the five MD simulations performed for both the SOX2–ES2 and SOX2–S100A14 interactions, as well as the one MD simulation performed for both the SOX2–SOX2 mRNA and HuR–SOX2 mRNA interactions.
 
